@@ -1,0 +1,77 @@
+.experience-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.experience-section h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.experience-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.experience-section input,
+.experience-section textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.experience-section textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.experience-section button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.experience-section button:hover {
+  background-color: #45a049;
+}
+
+.experiences-list {
+  display: grid;
+  gap: 20px;
+}
+
+.experience-item {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h3 {
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+.experience-item p {
+  margin-bottom: 5px;
+}
+
+.experience-item button {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.submit-all {
+  margin-top: 20px;
+  width: 100%;
+}
